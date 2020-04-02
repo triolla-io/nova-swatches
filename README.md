@@ -61,7 +61,7 @@ class Article extends Resource
     }
 ```
 
-Try switching `material-basic` to `text-basic`, `text-advanced`, `material-light` and `material-dark`.
+Try switching between `material-basic`, `text-basic`, `text-advanced`, `material-light` and `material-dark`. If you're not satisfied with the presets, keep customizing as shown below.
 
 ### Palettes
 
@@ -106,7 +106,7 @@ You can also provide an array of colors for the user to pick from.
     }
 ```
 
-Check out [Props](https://saintplay.github.io/vue-swatches/#sub-props) for more.
+Check out vue-swatches' [props section](https://saintplay.github.io/vue-swatches/#sub-props) for more options.
 
 ## Configuration
 
