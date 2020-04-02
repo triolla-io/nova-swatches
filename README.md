@@ -4,7 +4,8 @@ A beautiful color picking field for Laravel Nova. Uses [vue-swatches](https://gi
 
 ## Screenshots
 
-![Index](docs/index.png | width=100)
+<img src="docs/index.png" width="40%" /> <img src="docs/form-open.png" width="40%" />
+<img src="docs/form-input.png" width="40%" /> <img src="docs/form-text-advanced.png" width="40%" />
 
 ## Installation
 
@@ -44,7 +45,7 @@ class Article extends Resource
 
 ### Presets
 
-vue-swatches provides a few color presets out of the box.
+[vue-swatches](https://saintplay.github.io/vue-swatches/) provides a few color presets out of the box.
 
 ```php
     public function fields(Request $request)
@@ -80,9 +81,9 @@ You can also provide an array of colors for the user to pick from.
     }
 ```
 
-### Anything Else
+### Anything else...
 
-You can pass an array of `props` directly to `vue-swatches`.
+[vue-swatches](https://saintplay.github.io/vue-swatches/) is extremely customizable, you can pass an array of `props` directly to it:
 
 ```php
     public function fields(Request $request)
@@ -96,6 +97,8 @@ You can pass an array of `props` directly to `vue-swatches`.
                     'show-fallback' => true,
                     'fallback-type' => 'input',
                     'popover-to' => 'left',
+
+                    // More options at https://saintplay.github.io/vue-swatches/#sub-props
                 ]),
 
             // ...
@@ -107,7 +110,7 @@ Check out [Props](https://saintplay.github.io/vue-swatches/#sub-props) for more.
 
 ## Configuration
 
-You can set the default `props` for `Swatches` by publishing the package's config:
+While the `Swatches` component can be configured fluently, you can also set the defaults by publishing the package's config:
 
 ```
 php artisan vendor:publish --tag=config --provider=Yna\\NovaSwatches\\FieldServiceProvider
@@ -134,3 +137,7 @@ return [
     ]
 ];
 ```
+
+## Contribution
+
+We'd be glad to accept any contributions to Nova Swatches.
