@@ -61,7 +61,9 @@ class Article extends Resource
     }
 ```
 
-Try switching between `material-basic`, `text-basic`, `text-advanced`, `material-light` and `material-dark`. If you're not satisfied with the presets, keep customizing as shown below.
+Try switching between `material-basic`, `text-basic`, `text-advanced`, `material-light` and `material-dark`.
+
+If you're not satisfied with the presets, keep customizing as shown below.
 
 ### Palettes
 
