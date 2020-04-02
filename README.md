@@ -12,7 +12,7 @@ A beautiful color picking field for Laravel Nova. Uses [vue-swatches](https://gi
 You can install the package into a Laravel application that uses Nova via composer:
 
 ```
-composer require yna/nova-swatches
+composer require ynacorp/nova-swatches
 ```
 
 ## Usage
