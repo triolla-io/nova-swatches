@@ -1,6 +1,6 @@
 {
     "name": "ynacorp/nova-swatches",
-    "description": "A Laravel Nova field.",
+    "description": "A beautiful color picking field for Laravel Nova.",
     "keywords": [
         "laravel",
         "nova"
