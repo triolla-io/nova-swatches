@@ -12,8 +12,6 @@
 
 <script>
 import { FormField, HandlesValidationErrors } from "laravel-nova";
-import Swatches from "vue-swatches";
-import "vue-swatches/dist/vue-swatches.min.css";
 import CustomDefaultField from "./CustomDefaultField";
 
 export default {
@@ -21,7 +19,7 @@ export default {
 
   props: ["resourceName", "resourceId", "field"],
 
-  components: { Swatches, CustomDefaultField },
+  components: { CustomDefaultField },
 
   methods: {
     /*
