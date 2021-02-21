@@ -94,7 +94,7 @@ You can also provide an array of colors for the user to pick from.
             // ...
 
             Swatches::make('Color')
-                ->props([
+                ->withProps([
                     'colors' => ["#4ae2c4", "#4fccff", "#41c84d"],
                     'show-fallback' => true,
                     'fallback-type' => 'input',
