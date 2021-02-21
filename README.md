@@ -100,7 +100,7 @@ You can also provide an array of colors for the user to pick from.
                     'fallback-type' => 'input',
                     'popover-to' => 'left',
 
-                    // More options at https://saintplay.github.io/vue-swatches/#sub-props
+                    // More options at https://saintplay.github.io/vue-swatches/api/props.html
                 ]),
 
             // ...
@@ -108,7 +108,7 @@ You can also provide an array of colors for the user to pick from.
     }
 ```
 
-Check out vue-swatches' [props section](https://saintplay.github.io/vue-swatches/#sub-props) for more options.
+Check out vue-swatches' [props section](https://saintplay.github.io/vue-swatches/api/props.html) for more options.
 
 ## Configuration
 
@@ -127,7 +127,7 @@ return [
     /**
      * Props to pass to the vue-swatches component.
      *
-     * See https://saintplay.github.io/vue-swatches/#sub-props
+     * See https://saintplay.github.io/vue-swatches/api/props.html
      */
     'props' => [
         'colors' => 'basic', // Preset
@@ -135,7 +135,7 @@ return [
         // 'colors' => ['#ffffff', '#000'], // Array
 
         // 'show-fallback' => true,
-        // 'fallback-type' => 'input', // Or "color"
+        // 'fallback-input-type' => 'input', // Or "color"
     ]
 ];
 ```
