@@ -5,18 +5,16 @@
       class="w-1/5 px-8"
       :class="field.stacked ? 'pt-6' : 'py-6'"
     >
-      <slot>
-        <form-label
-          :label-for="field.attribute"
-          :class="{ 'mb-2': showHelpText && field.helpText }"
-        >
-          {{ fieldLabel }}
+      <form-label
+        :label-for="field.attribute"
+        :class="{ 'mb-2': showHelpText && field.helpText }"
+      >
+        {{ fieldLabel }}
 
-          <span v-if="field.required" class="text-danger text-sm">{{
-            __("*")
-          }}</span>
-        </form-label>
-      </slot>
+        <span v-if="field.required" class="text-danger text-sm">{{
+          __("*")
+        }}</span>
+      </form-label>
     </div>
     <div class="py-6 px-8">
       <slot name="field" />
@@ -46,7 +44,7 @@ export default {
     fieldName: { type: String },
     showHelpText: { type: Boolean, default: true },
     showErrors: { type: Boolean, default: true },
-    fullWidthContent: { type: Boolean, default: false }
+    fullWidthContent: { type: Boolean, default: false },
   },
 
   computed: {
@@ -60,7 +58,7 @@ export default {
       }
 
       return this.fieldName || this.field.singularLabel || this.field.name;
-    }
-  }
+    },
+  },
 };
 </script>
