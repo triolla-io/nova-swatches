@@ -2,7 +2,7 @@
   <CustomDefaultField :field="field" :errors="errors">
     <template slot="field">
       <swatches
-        :id="field.name"
+        :id="field.attribute"
         v-model="value"
         v-bind="field.props"
       ></swatches>
@@ -41,7 +41,7 @@ export default {
      */
     handleChange(value) {
       this.value = value;
-    }
-  }
+    },
+  },
 };
 </script>
